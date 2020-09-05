@@ -1,0 +1,3 @@
+echo "alias chrome='chromium-browser --disable-dev-shm-usage --disable-gpu --no-sandbox &'"
+rm -rf /tmp/.X1-lock && rm /tmp/.X11-unix/*
+vncserver -geometry 1280x720 && find ~/ -name "launch.sh" |  bash &

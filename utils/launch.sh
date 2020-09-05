@@ -180,4 +180,4 @@ fi
 
 echo -e "Press Ctrl-C to exit\n\n"
 
-wait ${proxy_pid}
+wait ${proxy_pid} 
